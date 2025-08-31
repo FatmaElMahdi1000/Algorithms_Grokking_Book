@@ -15,4 +15,4 @@ def printing_names(start_dir):
             elif isdir(full_path):
                 search_queue.append(full_path)
 
-print(printing_names(".")) #with listdir giving the method this "." means we're working on the current directory       
+print(printing_names(".")) #with listdir giving the method this "." means we're working on the current directory      
